@@ -84,7 +84,7 @@ def send_message(data):
 
 
 data = get_text_message_input(
-    recipient=RECIPIENT_WAID, text="Hello, this is a test message."
+    recipient=RECIPIENT_WAID, text="Hola, esto es una prueba de Grupo2."
 )
 
 response = send_message(data)
